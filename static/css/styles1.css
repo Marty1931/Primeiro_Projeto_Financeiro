@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../img/fundo-cadastro.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parte1 {
+  max-width: 400px;
+  margin: 1px 50px;
+  padding: 30px 30px;
+  background-color: #ffffff98;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.parte2 {
+  max-width: 400px;
+  margin: 1px 22px;
+  padding: 30px 30px;
+  background-color: #ffffff98;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 500px;
+  margin: 11px 111px;
+  padding: 0px 20px;
+  background-color: #ffffff89;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin: 30px 360px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: #08ba61;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 190px;
+}
+
+button:hover {
+  background-color: #0e4b2a;
+  color: #08ba61;
+}
+.cadastro-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que as partes sejam exibidas lado a lado */
+  justify-content: space-between; /* Distribui as partes igualmente ao longo do contêiner */
+  max-width: 800px; /* Limita a largura do container */
+  margin: 0 auto; /* Centraliza o container na tela */
+}
+
+.parte1,
+.parte2 {
+  width: calc(50% - 10px); /* Define a largura de cada parte */
+  box-sizing: border-box; /* Garante que a largura inclua a padding e a borda */
+}
+
+.parte3 {
+  display: flex;
+}
